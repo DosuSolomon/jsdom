@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <div class="flex w-full flex-col justify-center items-center background  h-[100vh] px-[10px]  gap-5">
+    <section id="contact" class="text-white  flex flex-col justify-center items-center w-full">
+      <form action="" class="flex flex-col gap-3 w-[400px]">
+        <input class="border-2 text-white border-red-400 p-2 rounded-md bg-transparent" type="text" placeholder="name" id="name">
+        <input class="border-2 text-white border-red-400 p-2 rounded-md bg-transparent" type="text" placeholder="email" id="email">
+        <input class="bg-red-400 p-3 rounded-md text-2xl cursor-pointer" type="submit" value="Submit">
+      </form>
+    </section>
+    <section id="list" class="text-white flex flex-col justify-center items-center w-[600px] gap-2">
+      <h6>Items</h6>
+      <ul class="flex flex-col justify-center items-center w-full  gap-3">
+        <li class="bg-gray-400 w-full p-2 rounded-md item">Item 1</li>
+        <li class="bg-gray-400 w-full p-2 rounded-md item">Item 2</li>
+        <li class="bg-gray-400 w-full p-2 rounded-md item">Item 3</li>
+      </ul>
+      <ul id="contact_ul"></ul>
+    </section>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
