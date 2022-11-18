@@ -5,3 +5,10 @@
 .background{
   background:#1e1e28;
 }
+#block{
+  display: block;
+}
+.msg{
+  display: none;
+  color: white;
+}

@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -541,16 +545,8 @@ video {
   flex-direction: column;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -604,11 +600,6 @@ video {
   padding: 0.75rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
@@ -626,4 +617,13 @@ video {
 
 .background{
   background:#1e1e28;
+}
+
+#block{
+  display: block;
+}
+
+.msg{
+  display: none;
+  color: white;
 }
